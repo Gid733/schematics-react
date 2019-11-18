@@ -71,12 +71,12 @@ Creates a React page with predefined store.
 
 Example:
 ```bash
-schematics schematics-react:reactPage /src/components/MyPage
+schematics schematics-react:reactPage /src/components/MyPage --name=MyPage
 ```
 
 with alias:
 ```bash
-schematics schematics-react:rp /src/components/MyPage
+schematics schematics-react:rp /src/components/MyPage --name=MyPage
 ```
 
 #### Parameters
