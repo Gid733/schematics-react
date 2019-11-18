@@ -1,16 +1,6 @@
 # Schematics React
-[![Build Status](https://travis-ci.org/vitaliy-bobrov/schematics-react.svg?branch=master)](https://travis-ci.org/vitaliy-bobrov/schematics-react)
-[![npm version](https://badge.fury.io/js/schematics-react.svg)](https://badge.fury.io/js/schematics-react)
-[![npm](https://img.shields.io/npm/dt/schematics-react.svg)](https://github.com/vitaliy-bobrov/schematics-react)
 
 Schematics generators for React 🎊
-
-## Features
-- 📜 Generates boilerplate
-- 🎛️ Configurable
-- 🛠️ Supports JavaScript & TypeScirpt
-- 📦 Works with [`create-react-app`](https://github.com/facebook/create-react-app)
-- 📌 Follows best pratices
 
 ## Installation
 - npm:
