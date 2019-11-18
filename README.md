@@ -6,13 +6,7 @@ Schematics generators for React 🎊
 - npm:
   ```bash
   npm install -g @angular-devkit/schematics-cli
-  npm install --save-dev schematics-react
-  ```
-
-- yarn:
-  ```bash
-  yarn global add @angular-devkit/schematics-cli
-  yarn add -D schematics-react
+  npm link '../relative_path'
   ```
 
 ## Usage
