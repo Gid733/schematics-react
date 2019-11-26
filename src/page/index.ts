@@ -1,5 +1,6 @@
 import { strings } from '@angular-devkit/core';
 import { apply, filter, mergeWith, move, noop, Rule, template, url } from '@angular-devkit/schematics';
+import { uppercase } from "../utility/uppercase-helper";
 
 import { parseName } from '../utility/parse-name';
 import { validateName } from '../utility/validation';
@@ -20,6 +21,7 @@ export function page(options: FnComponentOptions): Rule {
     options.noSpec ? filter(path => !path.endsWith('.test.__jsext__')) : noop(),
     template({
       ...strings,
+      uppercase,
       'if-flat': (s: string) => options.subfolder ? s : '',
       jsext: !!options.ts ? 'ts' : 'js',
       jsxext: !!options.ts ? 'tsx' : 'js',

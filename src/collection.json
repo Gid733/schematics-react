@@ -13,8 +13,8 @@
       "description": "Create a functional React component.",
       "schema": "./functional-component/schema.json"
     },
-    "page": {
-      "aliases": [ "rp" ],
+    "simplePage": {
+      "aliases": [ "sp" ],
       "factory": "./page/index#page",
       "description": "Create a React page.",
       "schema": "./page/schema.json"
