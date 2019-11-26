@@ -22,12 +22,12 @@ Creates a React page with predefined store.
 
 Example:
 ```bash
-schematics schematics-react:reactPage /src/components/MyPage --name=MyPage
+schematics schematics-react:simplePage --path=/src/pages/Journal --name="Journal"
 ```
 
 with alias:
 ```bash
-schematics schematics-react:rp /src/components/MyPage --name=MyPage
+schematics schematics-react:sp --path=/src/pages/Journal --name="Journal"
 ```
 
 #### Parameters
