@@ -13,10 +13,22 @@
       "description": "Create a functional React component.",
       "schema": "./functional-component/schema.json"
     },
-    "simplePage": {
+    "simple-page": {
       "aliases": [ "sp" ],
       "factory": "./page/index#page",
       "description": "Create a React page.",
+      "schema": "./page/schema.json"
+    },
+    "bb-crud": {
+      "aliases": [ "bbcd" ],
+      "factory": "./bb-crud/index#bbCrud",
+      "description": "Create a BB CRUD.",
+      "schema": "./page/schema.json"
+    },
+    "directory": {
+      "aliases": [ "dt" ],
+      "factory": "./directory/index#directory",
+      "description": "Create a BB CRUD.",
       "schema": "./page/schema.json"
     }
   }
